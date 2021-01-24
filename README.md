@@ -34,7 +34,8 @@ ecomAuth.on('login', () => {
 ### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@ecomplus/admin-helpers/dist/admin-helpers.var.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ecomplus/admin-helpers/dist/toast.var.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ecomplus/admin-helpers/dist/handle-api-error.var.min.js"></script>
 ```
 
 ```js
