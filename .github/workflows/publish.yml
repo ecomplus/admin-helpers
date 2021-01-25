@@ -41,6 +41,6 @@ jobs:
           JSON.stringify(pkg, null, 2)" > pkg.json && mv pkg.json package.json
 
       - name: Build and publish package to npm registry
-        run: npm run build && npm publish
+        run: npm run build && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
