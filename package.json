@@ -1,0 +1,72 @@
+{
+  "name": "@ecomplus/admin-helpers",
+  "version": "1.0.0",
+  "description": "DOM utils for E-Com Plus admin and related frontend apps",
+  "module": "src/index.js",
+  "browser": "dist/toast.min.js",
+  "main": "dist/toast.min.js",
+  "jsdelivr": "dist/toast.var.min.js",
+  "unpkg": "dist/toast.var.min.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "serve": "webpack-dev-server",
+    "doc": "rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash",
+    "release": "rm -rf ./dist; npm run build && standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecomplus/admin-helpers.git"
+  },
+  "keywords": [
+    "ecomplus",
+    "dashboard",
+    "toast"
+  ],
+  "author": "E-Com Club <ti@e-com.club>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ecomplus/admin-helpers/issues"
+  },
+  "homepage": "https://github.com/ecomplus/admin-helpers#readme",
+  "peerDependencies": {
+    "@ecomplus/utils": "^1.4.1"
+  },
+  "optionalDependencies": {
+    "core-js": "^3.8.2"
+  },
+  "dependencies": {
+    "@ecomplus/i18n": "^1.18.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@ecomplus/utils": "^1.4.1",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.2",
+    "docdash": "^1.2.0",
+    "husky": "^3.1.0",
+    "jsdoc": "^3.6.6",
+    "standard": "^16.0.3",
+    "standard-version": "^8.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "browserslist": [
+    "last 1 version",
+    "not dead",
+    "> 0.2%"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  }
+}
