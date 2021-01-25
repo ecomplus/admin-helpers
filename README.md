@@ -41,3 +41,7 @@ ecomAuth.on('login', () => {
 ```js
 window.toast('Hello!')
 ```
+
+### External dependencies
+
+It uses [jQuery](https://jquery.com/download/) and [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/javascript/) scripts (toast only).
