@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/admin-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DOM utils for E-Com Plus admin and related frontend apps",
   "module": "src/index.js",
   "browser": "dist/admin-helpers.min.js",
