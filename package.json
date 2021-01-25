@@ -9,7 +9,6 @@
   "unpkg": "dist/admin-helpers.var.min.js",
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "doc": "rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash",
     "release": "rm -rf ./dist; npm run build && standard-version"
   },
   "repository": {
@@ -45,9 +44,7 @@
     "@ecomplus/utils": "^1.4.1",
     "babel-loader": "^8.2.2",
     "core-js": "^3.8.2",
-    "docdash": "^1.2.0",
     "husky": "^3.1.0",
-    "jsdoc": "^3.6.6",
     "standard": "^16.0.3",
     "standard-version": "^8.0.0",
     "webpack": "^4.46.0",
