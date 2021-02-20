@@ -5,7 +5,6 @@ const path = require('path')
 const output = {
   library: 'helpers',
   libraryTarget: 'umd',
-  libraryExport: 'default',
   path: path.resolve(__dirname, 'dist'),
   filename: 'admin-helpers.min.js',
   globalObject: 'this'
