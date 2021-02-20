@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/ecomplus/admin-helpers/compare/v1.0.1...v1.1.0) (2021-02-20)
+
+
+### Features
+
+* **upload-pictures:** new `uploadPictures` method using admin global upload method ([ce5131d](https://github.com/ecomplus/admin-helpers/commit/ce5131daca271c4f6dffb5cca2fd251f3c8cbaca))
+
 ### [1.0.1](https://github.com/ecomplus/admin-helpers/compare/v1.0.0...v1.0.1) (2021-01-25)
 
 
