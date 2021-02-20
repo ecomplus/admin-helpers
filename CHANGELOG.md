@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/ecomplus/admin-helpers/compare/v1.2.0...v1.2.1) (2021-02-20)
+
+
+### Bug Fixes
+
+* **deps:** add jquery as direct pkg dependency ([e34adaf](https://github.com/ecomplus/admin-helpers/commit/e34adaf747ff8929310a6eceef31521e868e114e))
+
 ## [1.2.0](https://github.com/ecomplus/admin-helpers/compare/v1.1.0...v1.2.0) (2021-02-20)
 
 
