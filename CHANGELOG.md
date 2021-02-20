@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/ecomplus/admin-helpers/compare/v1.2.1...v1.2.2) (2021-02-20)
+
+
+### Bug Fixes
+
+* **exports:** combining named and default expers with all helpers ([a74f026](https://github.com/ecomplus/admin-helpers/commit/a74f026b92f3d8bf4383247b1a9e1355c9ed4988))
+
 ### [1.2.1](https://github.com/ecomplus/admin-helpers/compare/v1.2.0...v1.2.1) (2021-02-20)
 
 
