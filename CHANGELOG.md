@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ecomplus/admin-helpers/compare/v1.1.0...v1.2.0) (2021-02-20)
+
+
+### Features
+
+* **handle-api-error:** support receiving axios error ([054d984](https://github.com/ecomplus/admin-helpers/commit/054d98432bee40c1cd2929f1afaca12f3f42bc91))
+
 ## [1.1.0](https://github.com/ecomplus/admin-helpers/compare/v1.0.1...v1.1.0) (2021-02-20)
 
 
