@@ -3,6 +3,10 @@ import $ from 'jquery'
 import toast from './toast'
 
 const handleApiError = data => {
+  if (data instanceof Error && data.response) {
+    data = data.response.data
+  }
+
   let msg
   if (typeof data === 'object' && data !== null) {
     if (data.user_message) {
@@ -22,6 +26,7 @@ const handleApiError = data => {
       msg = data.message
     }
   }
+
   if (msg !== undefined) {
     console.log(`API Error Code: ${data.error_code}`)
   } else {
@@ -30,6 +35,7 @@ const handleApiError = data => {
       pt_br: 'Erro desconhecido, por favor tente novamente'
     })
   }
+
   toast(msg, {
     duration: 7000
   })
