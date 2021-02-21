@@ -54,7 +54,7 @@ const toast = (title, { body, variant, delay } = {}) => {
 
   $toast[0].innerHTML = `
   <div class="toast-header">
-    <i class="text-${(variant || 'warning')} fas fa-${icon} mr-3 ml-1"></i>
+    <i class="text-${(variant || 'warning')} fa fa-${icon} mr-3 ml-1"></i>
     <span class="mr-auto">
       ${(title || i18n(i19errorMsg))}
     </span>
