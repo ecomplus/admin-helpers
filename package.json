@@ -30,7 +30,7 @@
     "@ecomplus/utils": "^1.4.1"
   },
   "optionalDependencies": {
-    "core-js": "^3.8.2"
+    "core-js": "^3.9.0"
   },
   "dependencies": {
     "@ecomplus/i18n": "^1.20.0",
@@ -43,10 +43,10 @@
     "@commitlint/config-conventional": "^11.0.0",
     "@ecomplus/utils": "^1.4.1",
     "babel-loader": "^8.2.2",
-    "core-js": "^3.8.2",
+    "core-js": "^3.9.0",
     "husky": "^3.1.0",
     "standard": "^16.0.3",
-    "standard-version": "^8.0.0",
+    "standard-version": "^8.0.2",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
