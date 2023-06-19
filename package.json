@@ -30,23 +30,23 @@
     "@ecomplus/utils": "^1.4.1"
   },
   "optionalDependencies": {
-    "core-js": "^3.9.0",
-    "jquery": "^3.5.1"
+    "core-js": "^3.31.0",
+    "jquery": "^3.7.0"
   },
   "dependencies": {
-    "@ecomplus/i18n": "^1.20.0"
+    "@ecomplus/i18n": "^1.32.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.17",
-    "@babel/preset-env": "^7.12.17",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@ecomplus/utils": "^1.4.1",
-    "babel-loader": "^8.2.2",
-    "core-js": "^3.9.0",
+    "babel-loader": "^8.3.0",
+    "core-js": "^3.31.0",
     "husky": "^3.1.0",
-    "jquery": "^3.5.1",
-    "standard": "^16.0.3",
+    "jquery": "^3.7.0",
+    "standard": "^16.0.4",
     "standard-version": "^8.0.2",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
